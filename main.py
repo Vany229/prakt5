@@ -8,3 +8,6 @@ for element in array:
         count_positive += 1
     elif element < 0:
         product_negative *= element
+average_positive = sum_positive / count_positive
+print("Среднее арифметическое положительных элементов:", average_positive)
+print("Произведение отрицательных элементов:", product_negative)
